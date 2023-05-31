@@ -1,0 +1,33 @@
+.header_sec {
+
+    color: white;
+    background: transparent;
+    padding: 1rem 2rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo h1 {
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header_nav_list .header_unorder_list {
+    font-family: 'Exo 2', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: center;
+   gap: 4rem;
+}
+
+.header_btn {
+    color: white;
+    width: 80px;
+    max-width: 100px;
+    padding: .5rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+}

@@ -1,0 +1,25 @@
+
+.heroSec_calender .heroSec_input {
+    border: 1px solid;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.heroSec_input .heroSec_lable {
+    font-size: 12px;
+    color: #6D6D6D;
+    margin-left: 9px
+}
+
+.inputSec {
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    color: black;
+
+}

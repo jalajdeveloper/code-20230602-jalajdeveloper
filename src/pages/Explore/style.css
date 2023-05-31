@@ -1,0 +1,28 @@
+.explore {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.heading {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px
+}
+.explore_para{
+    margin-top: 2rem;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.explore_boxes{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exp_box{
+    border-radius: 5px;
+    border: 1px solid ;
+    max-width: 400px;
+    width: 500px;
+    height: 300px;
+    min-height: 300px;
+}
