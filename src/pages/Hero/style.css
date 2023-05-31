@@ -49,6 +49,13 @@
     border-radius: 30px;
 }
 
+.downImg_arrow{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heroSec_vector {
     position: absolute;
     bottom: -0.3rem;

@@ -1,0 +1,28 @@
+.footer_sec {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.footer_logo h1 {
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+.footer_nav_list .footer_unorder_list {
+    font-family: 'Exo 2', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: center;
+   gap: 4rem;
+}
+.footer_btn {
+    color: black;
+    width: 80px;
+    max-width: 100px;
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}

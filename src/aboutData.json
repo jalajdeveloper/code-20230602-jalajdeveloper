@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Chapter I",
+    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+    "img": "./assets/aboutImg1.svg"
+  },
+  {
+    "name": "Chapter II",
+    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+    "img": "./assets/aboutImg2.svg"
+  },
+  {
+    "name": "Chapter III",
+    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+    "img": "./assets/aboutImg3.svg"
+  },
+  {
+    "name": "Chapter IV",
+    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun",
+    "img": "./assets/aboutImg4.svg"
+  }
+]

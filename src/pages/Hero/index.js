@@ -34,7 +34,10 @@ function index() {
               Search
             </button>
           </div>
+          <div className="downImg_arrow">
           <img src="./assets/downArrow.svg" alt="arrow"/>
+          </div>
+         
 
           <div className="heroSec_vector">
             <img src="./assets/herosec_vector.svg" width="100%" />

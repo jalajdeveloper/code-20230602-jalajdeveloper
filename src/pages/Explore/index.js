@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import data from "../../data.json";
+import Explorecard from "../../components/ExploreCard/Explorecard";
 
 function index() {
   return (
@@ -13,8 +15,13 @@ function index() {
       </p>
 
       <div className="explore_boxes">
-        <div className="exp_box">sdfsf</div>
-        <div className="exp_box">fsdsdf</div>
+        {data.map((elm, index) => {
+          return (
+            <>
+              <Explorecard name={elm.name} price={elm.price} categigories={elm.categigories} book={elm.book} index={index} img={elm.img}/>
+            </>
+          );
+        })}
       </div>
     </div>
   );

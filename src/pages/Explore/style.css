@@ -5,7 +5,7 @@
 
 .heading {
     font-family: 'Exo 2', sans-serif;
-    font-size: 50px
+    font-size: 40px
 }
 .explore_para{
     margin-top: 2rem;
@@ -17,12 +17,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.exp_box{
-    border-radius: 5px;
-    border: 1px solid ;
-    max-width: 400px;
-    width: 500px;
-    height: 300px;
-    min-height: 300px;
+    gap: 20px;
 }

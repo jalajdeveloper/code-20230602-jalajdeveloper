@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Room with one king-size bed",
+    "price": "35$",
+    "categigories": "28м²",
+    "book": "Book!",
+    "img" : "./assets/exploreImg1.svg"
+  },
+  {
+    "name": "Room with one king-size bed",
+    "price": "35$",
+    "categigories": "28м²",
+    "book": "Book!",
+    "img" : "./assets/exploreImg2.svg"
+  }
+]
