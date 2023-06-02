@@ -25,7 +25,7 @@ function Header() {
             <li className="header_list">About us </li>
           </Link>
           <li className="header_list">
-            Cities <MdKeyboardArrowDown />
+            Cities <MdKeyboardArrowDown  className="headerIconDown_arrow"/>
           </li>
 
           <button className="header_btn">Call</button>

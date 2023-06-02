@@ -7,7 +7,7 @@ function Explorecard({ name, price, categigories, book, img }) {
       <img src={img} alt={name} className="exploreBlur" />
 
       <div className="explore_blur">
-        <div className="exp_para_">
+        <div className="exp_para">
           <p>{name}</p>
         </div>
 

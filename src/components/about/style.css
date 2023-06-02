@@ -1,23 +1,21 @@
 .about {
+  font-family: 'Ubuntu';
   margin-top: 2rem;
   padding: 1rem 2rem;
 }
-
 .aboutCards_ {
   display: grid;
   grid-template-columns: auto auto;
   gap: 20px;
 }
-
 .aboutSec_child {
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
 
+/* edia Query */
 @media screen and (max-width: 480px) {
-
-
   .aboutCards_ {
     width: 310px;
     flex-wrap: wrap;

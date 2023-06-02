@@ -1,6 +1,7 @@
-li{
+li {
     cursor: pointer;
 }
+
 .header_sec {
     position: relative;
     color: white;
@@ -37,71 +38,81 @@ li{
 
 }
 
+.header_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.headerIconDown_arrow {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+
 .menuBar {
     display: none;
 }
 
-.togleDiv{
+.togleDiv {
     display: none;
 }
 
 @media screen and (max-width: 768px) {
 
-    .header_nav_list{
+    .header_nav_list {
         display: none;
-    }
-    
-        .menuBar {
-            display: block;
-        }
-
-.close_hamburger{
-    position: relative;
-    height: 50px;
-}
-
-    .togleDiv {
-        display: block;
-   background-color: rgba(255, 255, 255, 0.4);
-        width: 100vw;
-        position: absolute;
-        right: 0;
-        top: 0;
- 
-    }
-
-    .cross_btn{
-        font-size: 30px;
-        color: black;
-        position: absolute;
-        right: 25px;
-        top: 25px;
-    }
-
-    .header_unorder_list {
-        list-style: none;
-        padding-top: 1rem;
-     ;
-       
-    }
-
-    .header_list {
-     padding: 15px 20px;
-        color: black;
-        background-color: rgb(225, 234, 236);
-    }
-
-.header_list:hover{
-    background-color: rgb(196, 192, 192);
-}
-
-    .header_logo h1 {
-        font-size: 30px;
     }
 
     .menuBar {
         display: block;
+        font-size: 2rem;
     }
 
-   
+    .close_hamburger {
+        position: relative;
+        height: 50px;
+    }
+
+    .togleDiv {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 100vw;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    .cross_btn {
+        font-size: 30px;
+        color: black;
+        position: absolute;
+        right: 33px;
+        top: 21px;
+    }
+
+    .header_unorder_list {
+        list-style: none;
+    }
+
+
+    .header_list {
+        padding: 15px 20px;
+        color: black;
+        background-color: rgb(225, 234, 236);
+    }
+
+    .header_list:hover {
+        background-color: rgb(196, 192, 192);
+    }
+    .header_logo h1 {
+        font-size: 30px;
+    }
+    .menuBar {
+        display: block;
+    }
 }
