@@ -1,6 +1,6 @@
 .explore {
-    margin-top: 1rem;
-    padding: 1rem 2rem;
+    margin-top: 16px;
+    padding: 20px 20px;
     font-family: 'Ubuntu';
 
 }
@@ -11,18 +11,66 @@
 }
 
 .explore_para {
-
     margin-bottom: 48px;
     margin-top: 21px;
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.explore_boxes {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+.subHeading_box{
+    margin-left: 13%;
+}
 
+.explore_boxes {
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
+}
+
+.explore_btn_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore_box {
+   
+    position: relative;
+}
+
+.explore_blur {
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+
+.explore_btn {
+    font-weight: 600;
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 10px;
+    border: none;
+}
+
+.explore_btn_book {
+    font-weight: 600;
+    border: none;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 10px;
+}
+
+.explore_buttons {
+    display: flex;
+    gap: 30px;
 }

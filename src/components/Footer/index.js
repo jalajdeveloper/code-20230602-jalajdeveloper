@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer_sec ">
+    <footer className="footer_sec ">
       <div className="footer_logo ">
         <h1 className="fotterHead">Your logo</h1>
 
@@ -28,7 +28,7 @@ function Footer() {
           <button className="footer_btn">Call</button>
         </ul>
       </nav>
-    </div>
+    </footer>
   );
 }
 
