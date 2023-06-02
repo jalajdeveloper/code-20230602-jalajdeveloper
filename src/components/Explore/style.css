@@ -8,6 +8,7 @@
     font-size: 40px
 }
 .explore_para{
+    margin-bottom: 20px;
     margin-top: 2rem;
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
@@ -16,6 +17,9 @@
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+   
     align-items: center;
     gap: 20px;
 }
+
+

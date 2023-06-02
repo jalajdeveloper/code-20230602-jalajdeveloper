@@ -1,19 +1,18 @@
 import React from "react";
 import "./style.css";
-import Header from "../../components/Header/index";
-import InputSec from "../../components/InputSec/index";
+import InputSec from "../InputSec";
+import Header from "../Header";
 
-function index() {
+function Hero() {
   return (
     <>
       <div className="hero_sec">
         <div className="herSec_bg">
           <Header />
-          <div className="heroSec_Text">
-            <h2>
-              Rethink your <br /> living & renting
-            </h2>
-          </div>
+
+          <h2 className="heroSec_Text">
+            Rethink your <br /> living & renting
+          </h2>
 
           <div className="heroSec_Para">
             <p>Make your stay painless with us</p>
@@ -35,18 +34,20 @@ function index() {
             </button>
           </div>
           <div className="downImg_arrow">
-          <img src="./assets/downArrow.svg" alt="arrow"/>
+            <img
+              src="./assets/downArrow.svg"
+              alt="arrow"
+              className="arroW_Img"
+            />
           </div>
-         
 
           <div className="heroSec_vector">
-            <img src="./assets/herosec_vector.svg" width="100%" />
+            <img src="./assets/herosec_vector.svg" width="100%" alt="vector" />
           </div>
         </div>
-        
       </div>
     </>
   );
 }
 
-export default index;
+export default Hero;

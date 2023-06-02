@@ -1,16 +1,16 @@
 import React from "react";
-import Hero from "../Hero/index";
-import Explore from "../Explore/index";
-import About from "../About";
+import Hero from "../../components/Hero";
+import { ExploreSection } from "../../components/Explore";
+import { AboutSection } from "../../components/about";
 
-function index() {
+function Home() {
   return (
-    <>
+    <div role='homecontainer'>
       <Hero />
-      <Explore />
-      <About />
-    </>
+      <ExploreSection />
+      <AboutSection />
+    </div>
   );
 }
 
-export default index;
+export default Home;

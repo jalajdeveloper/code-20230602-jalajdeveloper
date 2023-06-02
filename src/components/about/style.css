@@ -1,0 +1,62 @@
+.about {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+.aboutCards_ {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.aboutSec_child {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .aboutCards_ {
+    width: 310px;
+    flex-wrap: wrap;
+  }
+
+  .aboutCard {
+    position: relative;
+  }
+
+  .about_blur {
+
+    width: 250px !important;
+  }
+
+  .aboutCards_ {
+    flex-wrap: wrap;
+  }
+
+  .aboutCards_ {
+    grid-template-columns: auto;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .menuBar {
+    display: block;
+  }
+
+  .footer_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .footer_unorder_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

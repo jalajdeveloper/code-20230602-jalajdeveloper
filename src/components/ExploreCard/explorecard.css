@@ -1,16 +1,17 @@
 .explore_box {
     position: relative;
+    flex: 1 1 50%;
 }
 
 .explore_blur {
-    
+
     background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
     position: absolute;
     bottom: -2.5rem;
     left: 2rem;
     width: 424px;
-    height: 100px;
-padding: 1rem ;
+
+    padding: 1rem;
     backdrop-filter: blur(5px);
     border-radius: 15px;
 }
@@ -39,6 +40,10 @@ padding: 1rem ;
     left: 394px;
 }
 
+.exploreBlur {
+    width: 100%;
+}
+
 .explore_btn_flex {
     display: flex;
     justify-content: space-between;
@@ -46,7 +51,36 @@ padding: 1rem ;
 
 
 }
-.explore_buttons{
+
+.explore_buttons {
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .explore_blur {
+        width: 290px;
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .explore_blur {
+        left: 10px;
+        width: 250px;
+        padding: 0.5rem;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .explore_boxes {
+        flex-wrap: wrap;
+        gap: 50px !important;
+    }
 }

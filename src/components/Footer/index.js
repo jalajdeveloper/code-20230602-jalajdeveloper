@@ -1,22 +1,29 @@
 import React from "react";
 import "./style.css";
+import {Link} from "react-router-dom";
 
-function index() {
+function Footer() {
   return (
     <div className="footer_sec ">
       <div className="footer_logo ">
-        <h1>Your logo</h1>
+        <h1 className="fotterHead">Your logo</h1>
 
-        <div>
-          <p>© 2021 Company Name <br/> All rights reserved</p>
+        <div className="footer_log">
+          <p>
+            © 2021 Company Name <br /> All rights reserved
+          </p>
         </div>
       </div>
 
       <nav className="footer_nav_list">
         <ul className="footer_unorder_list">
-          <li className="footer_list">Explore</li>
-          <li className="footer_list">About us </li>
-          <li className="footer_list">Cities</li>
+          <Link to={"/explore"}>
+            <li className="header_list_">Explore</li>
+          </Link>
+          <Link to={"/about"}>
+            <li className="header_list_">About us </li>
+          </Link>
+          <li className="footer_list_">Cities</li>
 
           <button className="footer_btn">Call</button>
         </ul>
@@ -25,4 +32,4 @@ function index() {
   );
 }
 
-export default index;
+export default Footer;

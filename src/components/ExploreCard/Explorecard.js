@@ -4,7 +4,7 @@ import "./explorecard.css";
 function Explorecard({ name, price, categigories, book, img }) {
   return (
     <div className="explore_box">
-      <img src={img} alt={name} />
+      <img src={img} alt={name} className="exploreBlur" />
 
       <div className="explore_blur">
         <div className="exp_para_">

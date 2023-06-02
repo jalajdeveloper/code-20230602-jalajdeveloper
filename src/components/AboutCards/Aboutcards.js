@@ -1,10 +1,10 @@
 import React from "react";
-import "./aboutcard.css"
+import "./aboutcard.css";
 
 function Aboutcards({ name, para, img }) {
   return (
     <div className="aboutCard">
-      <img src={img} alt={name} />
+      <img src={img} alt={name} className="about_img" />
 
       <div className="about_blur">
         <div className="about_para_">

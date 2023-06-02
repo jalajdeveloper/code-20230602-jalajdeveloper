@@ -1,30 +1,17 @@
 import React from "react";
-import "./style.css";
-import data from "../../data.json";
-import Explorecard from "../../components/ExploreCard/Explorecard";
+import Header from "../../components/Header";
+import { ExploreSection } from "../../components/Explore";
 
-function index() {
+function Explore() {
   return (
-    <div className="explore">
-      <div className="heading">
-        <h3>Explore</h3>
-      </div>
+    <>
+   <div className="setheaderRoute">
+   <Header/>
+   </div>
+  <ExploreSection/>
+    </>
 
-      <p className="explore_para">
-        From one-guest rooms to <br /> penthouses with pools and gardens
-      </p>
-
-      <div className="explore_boxes">
-        {data.map((elm, index) => {
-          return (
-            <>
-              <Explorecard name={elm.name} price={elm.price} categigories={elm.categigories} book={elm.book} index={index} img={elm.img}/>
-            </>
-          );
-        })}
-      </div>
-    </div>
   );
 }
 
-export default index;
+export default Explore;
