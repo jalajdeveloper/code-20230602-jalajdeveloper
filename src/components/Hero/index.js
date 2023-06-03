@@ -1,5 +1,4 @@
 import "./style.css";
-import InputSec from "../InputSec";
 import Header from "../Header";
 
 import React, { useState } from "react";
@@ -23,9 +22,21 @@ function Hero() {
         </div>
 
         <div className="heroSec_calender container">
-          <InputSec label="CITY" name="Select your City" />
-          <InputSec label="DATES"  />
-          <InputSec label="GUESTS" name="Add guest" />
+          <div className="heroSec_input">
+            <label className="heroSec_lable">Select your City</label>
+            <input type="text" placeholder="Select your City" className="inputSec" role='inputField' />
+          </div>
+          <div className="heroSec_input">
+            <label className="heroSec_lable">DATES</label>
+            <div className="date_picker">
+          <DatePicker editable={false} placeholderText="Select your dates" className="date_picker" selected={startDate} onChange={(date) => setStartDate(date)} />
+        </div>
+          </div>
+          <div className="heroSec_input">
+            <label className="heroSec_lable">GUESTS</label>
+            <input type="text" placeholder="Add guest" className="inputSec" role='inputField' />
+          </div>
+       
 
           <button className="heroSec_btn">
             <img
@@ -38,9 +49,7 @@ function Hero() {
           </button>
         </div>
 
-        <div className="date_picker">
-        <DatePicker editable={false}  placeholderText="Select your dates"  className="date_picker" selected={startDate} onChange={(date) => setStartDate(date)} />
-        </div>
+        
 
 
 

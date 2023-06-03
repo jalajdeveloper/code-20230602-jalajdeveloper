@@ -62,13 +62,12 @@
 
 
 .date_picker {
-    width: 200px;
     position: absolute;
-    top: 74%;
-    left: 31.3%;
+    top: 26%;
+    left: 28.7%;
     border: none;
     font-size: 20px;
-
+    background: none;
 }
 
 
@@ -91,7 +90,7 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
-    border-radius: 16px;
+    border-radius: 25px;
 
     width: 20%;
     height: 67px;
@@ -99,6 +98,40 @@
     padding: 0.25px;
     font-size: 20px;
     color: white;
+}
+
+
+.heroSec_calender .heroSec_input {
+  
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+ width: 24%;
+    color: white;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.heroSec_input .heroSec_lable {
+    font-family: 'Exo 2';
+    font-size: 14px;
+    color: #6D6D6D;
+    margin-left: 9px
+}
+
+.inputSec {
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+input::placeholder{
+    color: black;
+}
+.inputSec:focus{
+    outline: none;
+    border: none;
 }
 
 
