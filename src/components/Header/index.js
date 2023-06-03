@@ -3,7 +3,8 @@ import "./style.css";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Header() {
   const [toggle, setToggle] = useState(true);
@@ -18,10 +19,16 @@ function Header() {
 
       <nav className="header_nav_list">
         <ul className="header_unorder_list">
-          <Link to={"/explore"}>
+          <Link to="explore" spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}>
             <li className="header_list">Explore</li>
           </Link>
-          <Link to={"/about"}>
+          <Link to="about" spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}>
             <li className="header_list">About us </li>
           </Link>
           <li className="header_list">

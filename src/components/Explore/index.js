@@ -3,7 +3,7 @@ import "./style.css";
 
 export const ExploreSection = () => {
   return (
-    <div className="explore ">
+    <div className="explore" id="explore">
       <div className="subHeading_box">
         <div>
           <h3 className="heading">Explore</h3>
