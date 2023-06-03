@@ -4,11 +4,10 @@ import {Link} from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="footer_sec ">
+    <footer className="footer_sec">
       <div className="footer_logo ">
-        <h1 className="fotterHead">Your logo</h1>
-
-        <div className="footer_log">
+        <h1 className="footerHead">Your logo</h1>
+        <div className="footer_log_para">
           <p>
             © 2021 Company Name <br /> All rights reserved
           </p>
@@ -18,10 +17,10 @@ function Footer() {
       <nav className="footer_nav_list">
         <ul className="footer_unorder_list">
           <Link to={"/explore"}>
-            <li className="header_list_">Explore</li>
+            <li className="footer_list_">Explore</li>
           </Link>
           <Link to={"/about"}>
-            <li className="header_list_">About us </li>
+            <li className="footer_list_">About us </li>
           </Link>
           <li className="footer_list_">Cities</li>
 

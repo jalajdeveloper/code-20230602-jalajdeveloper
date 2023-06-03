@@ -3,10 +3,10 @@ import "./style.css";
 
 export const ExploreSection = () => {
   return (
-    <div className="explore">
+    <div className="explore ">
       <div className="subHeading_box">
-        <div className="heading">
-          <h3>Explore</h3>
+        <div>
+          <h3 className="heading">Explore</h3>
         </div>
 
         <p className="explore_para">
@@ -16,10 +16,7 @@ export const ExploreSection = () => {
 
       <div className="explore_boxes">
         <div className="explore_box">
-          <div>
-          <img src="./assets/exploreImg1.svg" alt="" className="exploreBlur" />
-          </div>
-          
+          <img src="./assets/exploreImg1.svg" alt="img" className="exploreBlur" />
 
           <div className="explore_blur">
             <div className="exp_para">
@@ -39,18 +36,17 @@ export const ExploreSection = () => {
 
         <div className="explore_box">
           <div>
-          <img src="./assets/exploreImg2.svg" className="exploreBlur" />
+            <img src="./assets/exploreImg2.svg" className="exploreBlur" alt="iag2" />
           </div>
-        
 
           <div className="explore_blur">
             <div className="exp_para">
-            <p>Room with one king-size bed</p>
+              <p>Room with one king-size bed</p>
             </div>
 
             <div className="explore_btn_flex">
               <div className="explore_buttons">
-              <button className="explore_btn">35$</button>
+                <button className="explore_btn">35$</button>
                 <button className="explore_btn">28м²</button>
               </div>
 

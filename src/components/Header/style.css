@@ -39,6 +39,7 @@ li {
 }
 
 .header_list {
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,8 +50,8 @@ li {
 .headerIconDown_arrow {
     font-size: 1.5rem;
     position: absolute;
-    left: 40px;
-    top: 0;
+    left: 50px;
+    top: 3px;
 }
 
 .menuBar {
