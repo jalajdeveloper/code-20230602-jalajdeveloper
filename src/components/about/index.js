@@ -14,7 +14,7 @@ export const AboutSection = () => {
       <div className="aboutCards_">
         <div className="left flexClass">
           <div className="aboutCard">
-            <img src="./assets/aboutImg1.svg" alt="" className="about_img1" />
+            <img src="./assets/aboutImg1.svg" alt="aboutImg" className="about_img1" />
 
             <div className="about_blur">
               <div className="about_para_">
@@ -27,7 +27,7 @@ export const AboutSection = () => {
             </div>
           </div>
           <div className="aboutCard">
-            <img src="./assets/aboutImg3.svg" alt="" className="about_img" />
+            <img src="./assets/aboutImg3.svg" alt="aboutImg" className="about_img" />
 
             <div className="about_blur2">
               <div className="about_para_">
@@ -45,7 +45,7 @@ export const AboutSection = () => {
 
         <div className="right flexClass">
         <div className="aboutCard">
-          <img src="./assets/aboutImg2.svg" alt="" className="about_img" />
+          <img src="./assets/aboutImg2.svg" alt="aboutImg" className="about_img" />
 
           <div className="about_blur3">
             <div className="about_para_">
@@ -58,7 +58,7 @@ export const AboutSection = () => {
           </div>
         </div>
         <div className="aboutCard">
-          <img src="./assets/aboutImg4.svg" alt="" className="about_img" />
+          <img src="./assets/aboutImg4.svg" alt="aboutImg" className="about_img" />
 
           <div className="about_blur4">
             <div className="about_para_">

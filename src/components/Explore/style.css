@@ -8,15 +8,15 @@
 
 .heading {
     font-family: 'Exo 2';
-font-size: 64px;
-font-weight: bold;
+    font-size: 64px;
+    font-weight: bold;
 }
 
 
 
 .explore_para {
     line-height: 20px;
-    margin-bottom: 48px;
+    margin-bottom: 4px;
     margin-top: 21px;
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
@@ -24,7 +24,7 @@ font-weight: bold;
 
 .explore_boxes {
 
-    padding: 10px;
+    padding-top: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@ font-weight: bold;
     }
 
     .subHeading_box {
-        margin-top: 97px;
+        margin-top: 85px;
         margin-left: 6%;
     }
 

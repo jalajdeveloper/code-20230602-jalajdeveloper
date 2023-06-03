@@ -1,9 +1,14 @@
 import "./style.css";
 import InputSec from "../InputSec";
 import Header from "../Header";
-import React from "react";
+
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
 
 function Hero() {
+  const [startDate, setStartDate] = useState(null);
   return (
     <div className="hero_sec">
       <div className="herSec_bg">
@@ -19,7 +24,7 @@ function Hero() {
 
         <div className="heroSec_calender container">
           <InputSec label="CITY" name="Select your City" />
-          <InputSec label="DATES" name="Select your Dates" />
+          <InputSec label="DATES"  />
           <InputSec label="GUESTS" name="Add guest" />
 
           <button className="heroSec_btn">
@@ -32,6 +37,13 @@ function Hero() {
             Search
           </button>
         </div>
+
+        <div className="date_picker">
+        <DatePicker editable={false}  placeholderText="Select your dates"  className="date_picker" selected={startDate} onChange={(date) => setStartDate(date)} />
+        </div>
+
+
+
         <div className="downImg_arrow">
           <img src="./assets/downArrow.svg" alt="arrow" className="arroW_Img" />
         </div>

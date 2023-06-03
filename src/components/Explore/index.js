@@ -9,14 +9,17 @@ export const ExploreSection = () => {
           <h3 className="heading">Explore</h3>
         </div>
 
-        <p className="explore_para">
-          From one-guest rooms to <br /> penthouses with pools and gardens
-        </p>
+        <p className="explore_para">From one-guest rooms to</p>
+        <p>penthouses with pools and gardens</p>
       </div>
 
       <div className="explore_boxes">
         <div className="explore_box">
-          <img src="./assets/exploreImg1.svg" alt="img" className="exploreBlur" />
+          <img
+            src="./assets/exploreImg1.svg"
+            alt="img"
+            className="exploreBlur"
+          />
 
           <div className="explore_blur">
             <div className="exp_para">
@@ -36,7 +39,11 @@ export const ExploreSection = () => {
 
         <div className="explore_box">
           <div>
-            <img src="./assets/exploreImg2.svg" className="exploreBlur" alt="iag2" />
+            <img
+              src="./assets/exploreImg2.svg"
+              className="exploreBlur"
+              alt="img2"
+            />
           </div>
 
           <div className="explore_blur">
