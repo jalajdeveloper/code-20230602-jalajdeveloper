@@ -158,8 +158,9 @@ input::placeholder{
 
 
     .date_picker {
+        left: 7%;
         top: 31%;
-        left: 12%;
+        width: 75%!important;
     }
 
     .heroSec_btn {

@@ -29,7 +29,7 @@ function Hero() {
           <div className="heroSec_input">
             <label className="heroSec_lable">DATES</label>
             <div className="date_picker">
-          <DatePicker editable={false} placeholderText="Select your dates" className="date_picker" selected={startDate} onChange={(date) => setStartDate(date)} />
+          <DatePicker editable={false} placeholderText="Select your dates" className="date_picker" selected={startDate} onChange={(date) => setStartDate(date)} width="200"/>
         </div>
           </div>
           <div className="heroSec_input">
